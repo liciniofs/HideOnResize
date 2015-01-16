@@ -1,0 +1,15 @@
+/* HideOnResize CSS */
+
+.logo-overlay{
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: #fdfdfd;
+}
+.centered-logo{
+  width: 159px;
+  height: 152px;
+  margin: 44vh 44vw;
+  background: aqua url(assets/images/logo.png) no-repeat center center;
+}
