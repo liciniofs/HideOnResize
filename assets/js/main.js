@@ -6,6 +6,7 @@ function resizewindow() {
 	}
 
 	setTimeout(function() {
+		//$( ".logo-overlay" ).fadeOut( "slow" );
 		$('.logo-overlay').remove();
-	}, 1000);
+	}, 1500);
 }
